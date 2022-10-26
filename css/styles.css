@@ -1,0 +1,119 @@
+
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2rem;
+}
+
+header > img {
+    width: 50%;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;    
+}
+
+nav {
+    background-color: #495e57;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+
+nav ul {
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #f4ce14;
+    padding: 0 50px;
+    border-radius: 15px;
+    text-decoration: none;    
+}
+
+nav li a:hover {    
+    color: #edefee;
+}
+
+.offer {
+    background-color: #f4ce14;
+    color: #495e57;
+    display: block;
+       
+}
+
+.offer h2, p {
+    margin: 0;
+    padding: 30px;   
+        
+}
+
+.offer div {
+    animation-name: deal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;     
+}
+
+@keyframes deal {
+    from {background-color: #edefee;}
+    to {background-color: #f4ce14;}
+  }
+
+section {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section article {
+    padding: 20px;
+    margin: 10px 0;
+    width: 400px;
+    box-sizing: border-box;
+    border: 5px solid #495e57;
+    border-radius: 15px;    
+    text-align: center;
+    color: #495e57;
+}
+
+section article img {
+    width: 20%;
+}
+
+section article a {
+    background-color: #495e57;
+    color: #f4ce14;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+section article a:hover {
+    background-color: #f4ce14;
+    color: #495e57;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #495e57;
+}
+
+footer > img {
+    height: 5%;
+    width: 5%;    
+}
+
+
